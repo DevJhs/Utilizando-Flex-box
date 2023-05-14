@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos Flutuantes</title>
+    <style>
+        .conteudo{
+            width: 300px;
+            height: 200px;
+            background: blue ;
+            border: 1px solid black;
+            color: white;
+            font-weight: bold;
+            font-size: 2rem;
+            margin: 10px;
+            float: right;
+        }
+        /*
+        .left{
+           float: right;
+           background-color: chocolate;
+           margin-right: 40px;
+           margin-top: 200px;
+        }*/
+        .principal{
+            width: 1000px;
+            background: grey;
+            border: 2px solid red;
+        }
+        .clear{
+            clear: both;      
+        }
+        
+    </style>
+
+</head>
+<body>
+   <div class="principal">
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum temporibus, natus dignissimos odit at voluptatum magni hic accusamus in beatae quidem corporis praesentium magnam dicta impedit officiis nihil sapiente aperiam.</p>
+        <div class="conteudo">conteudo 1</div>
+        <div class="conteudo ">conteudo 2</div>
+        <div class="conteudo ">conteudo 3</div>
+        <div class="clear"></div>
+       
+   </div>
+</body>
+</html>
